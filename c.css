@@ -1,0 +1,173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  background: #eee;
+}
+:root {
+ --mc:#3391E3;
+ --ww:950px
+}
+a {
+  color: var(--mc);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#c {
+  width: var(--ww);
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.a {
+  background: var(--mc);
+  color: #fff;
+  margin: -20px -20px 20px;
+  padding: 20px;
+}
+.a a {
+  color: #fff;
+}
+.a h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.a p {
+  font-weight: 400;
+  font-size: 15px;
+}
+.b {
+  display: block;
+  min-height: 500px;
+}
+.b h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.b ul {
+  list-style: square;
+  margin: 0 0 15px 15px;
+}
+.b p {
+  margin: 0 0 10px;
+}
+.c {
+  background: var(--mc);
+  margin: 20px -20px -20px;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #fff;
+}
+.c a {
+  color: #fff;
+}
+.b form {
+  display: flex;
+  gap: 5px;
+  margin: 15px 0;
+}
+.bt {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 300px;
+}
+.bu {
+  background: var(--mc);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-family: inherit;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.bw {
+  display: block;
+  background: #f43a3a1c;
+  border: 1px solid #dfa4a4;
+  line-height: 1;
+  padding: 10px;
+  border-radius: 3px;
+  color: #d72e2e;
+  font-weight: 400;
+}
+.b strong {
+  font-weight: 500;
+}
+.br {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 3px;
+}
+.br h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 14px;
+}
+.bh {
+  display: block;
+  margin: 0 0 20px;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+@media screen and (max-width:950px){
+:root {
+ --ww:100%;
+}
+#c {
+    margin: 0;
+}
+}
+@media screen and (max-width:800px){
+
+}
